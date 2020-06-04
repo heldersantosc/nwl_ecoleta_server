@@ -5,6 +5,8 @@
 //npx ts-node src/server.ts         (executa o server.ts)
 //npx tsc --init                    (inicia o tsconfig)
 //npm install ts-node-dev -D        (semelhante ao nodemon)
+
+//npx knex migrate:latest --knexfile knexfile.ts
 import express from "express";
 
 const app = express();
